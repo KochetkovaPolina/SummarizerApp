@@ -5,7 +5,6 @@ from collections import defaultdict
 import nltk
 import os
 
-nltk.data.path = ["nltk_data"]  # Путь из дирректории на nltk_data
 nltk.download('punkt')  
 
 model_name = "facebook/bart-large-cnn"
